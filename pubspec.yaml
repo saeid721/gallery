@@ -1,0 +1,57 @@
+name: samsung_gallery
+description: A Samsung Gallery UI clone built with Flutter, GetX, SQLite, and SharedPreferences.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management, navigation, dependency injection
+  get: ^4.7.3
+
+  # Local SQLite database
+  sqflite: ^2.4.2
+
+  # Persistent key-value preferences
+  shared_preferences: ^2.5.4
+
+  # File system path utilities
+  path: ^1.9.1
+
+  # App directory resolution (getApplicationDocumentsDirectory, etc.)
+  path_provider: ^2.1.5
+
+  # Network image caching with placeholder/error support
+  cached_network_image: ^3.4.1
+
+  # Pinch-to-zoom photo viewer
+  photo_view: ^0.15.0
+  photo_manager: ^3.9.0
+  photo_manager_image_provider: ^2.2.0
+
+  # Video viewer
+  video_player: ^2.11.1
+
+  # Staggered / masonry grid layouts
+  flutter_staggered_grid_view: ^0.7.0
+
+  # Google Fonts (Noto Sans for Samsung-style typography)
+  google_fonts: ^8.0.2
+
+  # Date formatting (date_added / date_modified display)
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  # Add your asset folders here if using local images in the future:
+  # assets:
+  #   - assets/images/
